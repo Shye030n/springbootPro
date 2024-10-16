@@ -29,3 +29,4 @@ public class BoardServiceImpl implements BoardService {
         // 구체적으로) boardMapper의 메서드 selectAll를 ();(호출)하여 게시물 목록을 가져온다.
     }
 }
+

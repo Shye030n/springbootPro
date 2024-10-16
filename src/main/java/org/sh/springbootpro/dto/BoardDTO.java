@@ -28,3 +28,5 @@ public class BoardDTO { // = MySql
     // 6) BoardController.java
     // 7) jsp파일(view)
 }
+
+

@@ -9,3 +9,4 @@ public interface BoardService {
     //getList() 메서드는 BoardDTO 객체의 리스트를 반환한다.
         // 서현어) BoardDTO에 있는 List형태를 getList라 하겠다.
 }
+
