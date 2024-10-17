@@ -14,6 +14,10 @@ public interface BoardMapper {
 
     // * 총 정리 *
         // BoardDTO에 정의된 6개의 필드 전부를 =>  selectAll()메서드로 선언하여 List 형태로 저장 => DB 데이터를 한 번에 불러오기 위해
-
+    BoardDTO selectOne(int bno);
+    void insert(BoardDTO board);
+    void update(BoardDTO board);
+    void delete(int bno);
+    void visitCountUpdate(int bno);
 }
 

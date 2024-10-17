@@ -8,5 +8,10 @@ public interface BoardService {
     List<BoardDTO> getList(); // 메서드 선언만 함 (메서드 내용은 BoaradServiceImpl)
     //getList() 메서드는 BoardDTO 객체의 리스트를 반환한다.
         // 서현어) BoardDTO에 있는 List형태를 getList라 하겠다.
+    BoardDTO getOne(int bno);
+    void register(BoardDTO boardDTO);
+    void modify(BoardDTO boardDTO);
+    void remove(int bno);
 }
+
 
